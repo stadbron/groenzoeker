@@ -1,0 +1,12 @@
+{
+  "name": "groenzoeker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bas Peeters <bas@peete.rs>",
+  "license": "BSD-3-Clause"
+}
