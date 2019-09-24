@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import App from './components/App.vue'
 
-Vue({
+const app = new Vue({
   el: '#app',
   render: h => h(App)
 })
+
+if (app) {
+  console.log('App loaded.')
+}
