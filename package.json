@@ -39,7 +39,8 @@
     "webpack-dev-server": "^3.8.1"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "pre-push": "npm run test"
   },
   "keywords": [],
   "license": "BSD-3-Clause",

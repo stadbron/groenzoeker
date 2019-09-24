@@ -8,7 +8,7 @@
 export default {
   name: 'App',
   data: () => ({
-    title: 'Groenazoeker'
+    title: 'Groenzoeker'
   })
 }
 </script>
