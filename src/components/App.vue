@@ -5,12 +5,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'App',
-    data: () => ({
-      title: "Groenzoeker"
-    })
-  }
+export default {
+  name: 'App',
+  data: () => ({
+    title: 'Groenazoeker'
+  })
+}
 </script>
 
 <style scoped>
