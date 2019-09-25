@@ -1,8 +1,17 @@
 language: node_js
+env:
+  global:
+    - DISPLAY=:99.0
 
 node_js:
   - node
   - 'lts/*'
+
+addons:
+  chrome: stable
+
+services:
+  - xvfb
 
 cache: npm
 
@@ -11,6 +20,6 @@ jobs:
     - stage: Lint
       node_js: node
       script: npm run lint
-    - stage: Produce Coverage
+    - stage: Test Unit
       node_js: node
-      script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+      script: npm run test:unit
