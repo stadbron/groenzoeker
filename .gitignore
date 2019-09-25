@@ -1,3 +1,4 @@
-/coverage
-/dist
 /node_modules
+/tests/e2e/reports
+/src/assets/data/*.json
+/selenium-debug.log
