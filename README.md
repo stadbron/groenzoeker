@@ -33,7 +33,7 @@ npm run test:e2e
 ### Run your unit tests
 ```
 npm run test:unit
-=======
+```
 
 ### Compiles and hot-reloads for development
 ```
