@@ -1,5 +1,7 @@
 # groenzoeker
 
+[![Build Status](https://travis-ci.org/stadbron/groenzoeker.svg?branch=master)](https://travis-ci.org/stadbron/groenzoeker) 
+
 ## Project setup
 ```
 npm install
