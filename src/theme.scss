@@ -1,8 +1,9 @@
+@import "../node_modules/material-design-icons/iconfont/material-icons.css";
 @import "../node_modules/vue-material/dist/theme/engine"; // Import the theme engine
 
 @include md-register-theme("default", (
-        primary: md-get-palette-color(lightgreen, 300), // The primary color of your application
-        accent: md-get-palette-color(red, A200) // The accent or secondary color
+        primary: md-get-palette-color(lightgreen, 900), // The primary color of your application
+        accent: md-get-palette-color(lightgreen, 300) // The accent or secondary color
 ));
 
 @import "../node_modules/vue-material/dist/theme/all"; // Apply the theme
