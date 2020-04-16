@@ -37,7 +37,7 @@
     "diff": "^4.0.1",
     "growl": "^1.10.5",
     "http-proxy-agent": "^2.1.0",
-    "https-proxy-agent": "^2.2.2",
+    "https-proxy-agent": "^2.2.3",
     "lint-staged": "^8.1.5",
     "lodash": "^4.17.15",
     "lodash.defaultsdeep": "^4.6.1",
